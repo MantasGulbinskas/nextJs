@@ -4,7 +4,7 @@ const Navbar = () => {
     return(
         <>
         <Link href={'/'} color={'blue.400'}>Home</Link>
-            <Link href={'/airlines'} color={'blue.400'}>Airlines</Link>
+            <Link href={'/products'} color={'blue.400'}>Products</Link>
         </>
     )
 }
