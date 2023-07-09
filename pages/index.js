@@ -1,4 +1,5 @@
 import { Container } from "@chakra-ui/react";
+import Sidebar from "./components/sidebar";
 
 const Index = () => {
   return (
@@ -9,6 +10,7 @@ const Index = () => {
           <h1>This is testing</h1>
         </div>
       </div>
+      <Sidebar />
     </Container>
   );
 };
